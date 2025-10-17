@@ -1,7 +1,7 @@
 services:
   movies-api-node:
     build:
-      context: .
+      context: https://github.com/StaticKev/DevOps-Kelompok-3.git
       dockerfile: Dockerfile
     container_name: movies-api-node
     ports:
